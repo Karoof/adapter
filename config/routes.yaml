@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+i_am_alive:
+  path: /adapter/comments/i_am_alive
+  controller: App\IAmAliveController::handle
