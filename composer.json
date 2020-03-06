@@ -5,6 +5,7 @@
         "php": "^7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "jms/serializer-bundle": "^3.5",
         "liip/functional-test-bundle": "^4.0",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "5.0.*",
@@ -19,7 +20,7 @@
         "symfony/mailer": "5.0.*",
         "symfony/monolog-bundle": "^3.1",
         "symfony/notifier": "5.0.*",
-        "symfony/orm-pack": "*",
+        "symfony/orm-pack": "^1.0",
         "symfony/process": "5.0.*",
         "symfony/security-bundle": "5.0.*",
         "symfony/serializer-pack": "*",
@@ -31,6 +32,8 @@
         "symfony/yaml": "5.0.*"
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "liip/test-fixtures-bundle": "^1.7",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^5.0",
